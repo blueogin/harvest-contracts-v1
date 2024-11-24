@@ -6,29 +6,6 @@ With that, we present Harvest :tractor:, a tool that helps farmers of all shapes
 
 Bread for the people!
 
-Website: [https://harvest.finance/](https://harvest.finance/)
-
-Twitter: [https://twitter.com/harvest_finance](https://twitter.com/harvest_finance)
-
-Medium: [https://medium.com/harvest-finance](https://medium.com/harvest-finance)
-
-Discord: [https://discord.gg/R5SeTVR](https://discord.gg/R5SeTVR)
-
-Community Wiki: [https://farm.chainwiki.dev/en/home](https://farm.chainwiki.dev/en/home)
-
-策略: [https://farm.chainwiki.dev/zh/策略](https://farm.chainwiki.dev/zh/%E7%AD%96%E7%95%A5)
-
-## Audits
-
-**Haechi:** We acquired an [audit from Haechi](https://github.com/harvest-finance/harvest/blob/master/audits/Haechi-Harvest.pdf) which should assure our farmers that their crops are safe and bread for the people will be produced, no matter what the future brings. The audit highlighted one issue classified as major (initially pointed out by the community, thus it is already fixed), and 5 additional minor issues, 4 of which are in fact decentralization features and design choices that we actively made for our platform. The one remaining minor issue was fixed as well. We would like to thank Haechi for their hard work on this audit and keeping our farmers safe.
-
-**PeckShield:** We acquired an [audit from PeckShield](https://github.com/harvest-finance/harvest/blob/master/audits/PeckShield-Harvest.pdf) which should assure our farmers that their crops are safe and bread for the people will be produced, no matter what the future brings. The main issue pointed out by PeckShield is the privileged role of our 0xf00d deployer address. Based on the discussion with our community, we have implemented timelock mechanisms that provide the farmers with an opportunity to leave the farm if they disagree with the deployer's actions before these actions are executed. An additional issue related to CRVStrategyStable's depositArbCheck() was pointed out by our wonderful community and was already fixed before the report by PeckShield was completed. Other non-informational issues do not affect the system, or are explicit design choices and decentralization features made by our team. We would like to thank PeckShield for their hard work on this audit and keeping our farmers safe.
-
-## Addresses
-
-We recommend interacting with Harvest via interfaces provided by our website. Direct interaction 
-with the smart contracts should be avoided by farmers who are not experienced in using heavy machinery!
-
 ### Deployers, Minters, Treasuries
 
 | Name | Address | Description |
@@ -48,11 +25,6 @@ with the smart contracts should be avoided by farmers who are not experienced in
 [es-ops]: https://etherscan.io/address/0x843002b1d545ef7abb71c716e6179570582faa40
 [es-vwap]: https://etherscan.io/address/0x008671ca953ec3baa8c1b9af4623d38789ee2236
 [es-harvester]: https://etherscan.io/address/0xbed04c43e74150794f2ff5b62b4f73820edaf661
-
-FARM token: <br />
-[0xa0246c9032bC3A600820415aE600c6388619A14D](https://etherscan.io/address/0xa0246c9032bC3A600820415aE600c6388619A14D)
-GRAIN token: <br />
-[0x6589fe1271A0F29346796C6bAf0cdF619e25e58e](https://etherscan.io/address/0x6589fe1271a0f29346796c6baf0cdf619e25e58e)
 
 ### Vaults:
 
